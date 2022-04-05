@@ -136,3 +136,7 @@ dmypy.json
 
 # Jupyter notebook
 *.ipynb
+
+# Great Expectations files
+uncommitted/
+.ge_store_backend_id
