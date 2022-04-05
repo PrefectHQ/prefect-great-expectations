@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- `run_checkpoint_validation` task - [#1](https://github.com/PrefectHQ/prefect-great-expectations/pull/1)
+- `run_checkpoint_validation` task - [#2](https://github.com/PrefectHQ/prefect-great-expectations/pull/2)
 
 ### Changed
 

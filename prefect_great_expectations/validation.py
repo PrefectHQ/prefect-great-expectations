@@ -40,7 +40,7 @@ def run_checkpoint_validation(
 ):
     """
     Task that performs a Great Expectations validation based on the provided checkpoint
-        and data context
+        and data context.
 
     Args:
         run_name: The name of the Great Expectations validation run. Defaults to
@@ -48,7 +48,7 @@ def run_checkpoint_validation(
         checkpoint_name: The name of the Checkpoint to use for validation.
         checkpoint: A Checkpoint object to use for validation. Overrides
             `checkpoint_name` if both are provided.
-        checkpoint_kwargs:  A dictionary with values used to provide configuration to
+        checkpoint_kwargs: A dictionary with values used to provide configuration to
             the task's Checkpint at runtime. Keys should match the parameters of
             `CheckpointConfig`.
         data_context_root_dir: Path to the great_expectations directory.
@@ -104,8 +104,8 @@ def run_checkpoint_validation(
 
     logger.info("Running Great Expectations validation...")
 
-    runtime_environment = runtime_environment or dict()
-    checkpoint_kwargs = checkpoint_kwargs or dict()
+    runtime_environment = runtime_environment or {}
+    checkpoint_kwargs = checkpoint_kwargs or {}
 
     data_context_root_dir = (
         str(data_context_root_dir) if data_context_root_dir else None
