@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- `run_checkpoint_validation` task - [#1](https://github.com/PrefectHQ/prefect-great-expectations/pull/1)
+
 ### Changed
 
 ### Deprecated
@@ -18,11 +20,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 ### Security
-
-## 0.1.0
-
-Released on ????? ?th, 20??.
-
-### Added
-
-- `task_name` task - [#1](https://github.com/PrefectHQ/prefect-great-expectations/pull/1)
