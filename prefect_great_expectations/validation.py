@@ -67,6 +67,38 @@ def run_checkpoint_validation(
 
     Returns:
         CheckpointResult: Detailed result of the validation run in the task.
+
+    Examples:
+        Run a validation with a checkpoint named 'my_checkpoint':
+
+        ```python
+        from prefect import flow
+        from prefect_great_expectations import run_checkpoint_validation
+
+
+        @flow
+        def example_flow():
+            run_checkpoint_validation(checkpoint_name="my_checkpoint")
+
+        example_flow()
+        ```
+
+        Run a validation with a custom path to the data context:
+
+        ```python
+        from prefect import flow
+        from prefect_great_expectations import run_checkpoint_validation
+
+
+        @flow
+        def example_flow():
+            run_checkpoint_validation(
+                checkpoint_name="my_checkpoint",
+                data_context_root_dir="my_data_context/"
+            )
+
+        example_flow()
+        ```
     """
     logger = get_run_logger()
 
