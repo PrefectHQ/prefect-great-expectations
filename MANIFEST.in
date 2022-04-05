@@ -1,0 +1,2 @@
+include versioneer.py
+include prefect_great_expectations/_version.py
