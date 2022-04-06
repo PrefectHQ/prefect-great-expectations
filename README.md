@@ -26,16 +26,12 @@ pip install prefect-great-expectations
 
 ```python
 from prefect import flow
-from prefect_great_expectations.tasks import (
-    goodbye_prefect_great_expectations,
-    hello_prefect_great_expectations,
-)
+from prefect_great_expectations import run_checkpoint_validation
 
 
 @flow
 def example_flow():
-    hello_prefect_great_expectations
-    goodbye_prefect_great_expectations
+   run_checkpoint_validation(checkpoint_name="my_checkpoint")
 
 example_flow()
 ```
