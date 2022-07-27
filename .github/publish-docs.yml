@@ -21,6 +21,3 @@ jobs:
         with:
           branch: docs
           folder: site
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
