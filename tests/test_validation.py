@@ -32,7 +32,7 @@ class TestRunCheckpointValidation:
                 data_context_root_dir=CONTEXT_ROOT_DIR,
             )
 
-        result = test_flow().result().result()
+        result = test_flow()
         assert result.success, "Checkpoint validation should pass"
 
     def test_validation_with_checkpoint(self):
@@ -45,7 +45,7 @@ class TestRunCheckpointValidation:
                 checkpoint=checkpoint, data_context_root_dir=CONTEXT_ROOT_DIR
             )
 
-        result = test_flow().result().result()
+        result = test_flow()
         assert result.success, "Checkpoint validation should pass"
 
     def test_checkpoint_supercedes_checkpoint_name(self):
@@ -60,7 +60,7 @@ class TestRunCheckpointValidation:
                 data_context_root_dir=CONTEXT_ROOT_DIR,
             )
 
-        result = test_flow().result().result()
+        result = test_flow()
         assert result.success, "Checkpoint validation should pass"
 
     def test_validation_with_data_context(self):
@@ -71,7 +71,7 @@ class TestRunCheckpointValidation:
                 checkpoint_name="my_checkpoint_pass", data_context=data_context
             )
 
-        result = test_flow().result().result()
+        result = test_flow()
         assert result.success, "Checkpoint validation should pass"
 
     def test_data_context_supercedes_data_context_root_dir(self, tmp_path):
@@ -94,7 +94,7 @@ class TestRunCheckpointValidation:
 
         # Running the flow should raise if the tmp data context is used
         with pytest.raises(CheckpointNotFoundError, match="my_checkpoint_pass.yml"):
-            test_flow().result().result()
+            test_flow()
 
     def test_failed_validation_raises_by_default(self):
         @flow
@@ -105,7 +105,7 @@ class TestRunCheckpointValidation:
             )
 
         with pytest.raises(GreatExpectationValidationError) as ex_info:
-            test_flow().result().result()
+            test_flow()
 
         assert (
             not ex_info.value.result.success
@@ -120,7 +120,7 @@ class TestRunCheckpointValidation:
                 raise_on_validation_failure=False,
             )
 
-        result = test_flow().result().result()
+        result = test_flow()
         assert (
             not result.success
         ), "Checkpoint validation should fail without raising an exception"
@@ -134,7 +134,7 @@ class TestRunCheckpointValidation:
                 run_name="THIS IS A CUSTOM RUN NAME",
             )
 
-        result = test_flow().result().result()
+        result = test_flow()
         assert (
             result.run_id.run_name == "THIS IS A CUSTOM RUN NAME"
         ), "run_name does not match expected value"
@@ -165,5 +165,5 @@ class TestRunCheckpointValidation:
                 },
             )
 
-        result = test_flow().result().result()
+        result = test_flow()
         assert result.success, "Checkpoint validation should be successful"
