@@ -1,2 +1,2 @@
-prefect>=2.0b9
+prefect>=2.0.0
 great_expectations>=0.14.13
