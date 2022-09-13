@@ -47,6 +47,7 @@ jobs:
         uses: peter-evans/create-pull-request@v4
         with:
           commit-message: Updating collection with changes to prefect-collection-template
+          token: ${{ secrets.COLLECTIONS_SYNC_API_KEY }}
           branch: sync-with-template
           delete-branch: true
           title: Sync Collection with changes to prefect-collection-template
