@@ -1,5 +1,21 @@
 # prefect-great-expectations
 
+<p align="center">
+    <a href="https://pypi.python.org/pypi/prefect-great-expectations/" alt="PyPI version">
+        <img alt="PyPI" src="https://img.shields.io/pypi/v/prefect-great-expectations?color=0052FF&labelColor=090422"></a>
+    <a href="https://github.com/PrefectHQ/prefect-great-expectations/" alt="Stars">
+        <img src="https://img.shields.io/github/stars/PrefectHQ/prefect-great-expectations?color=0052FF&labelColor=090422" /></a>
+    <a href="https://pepy.tech/badge/prefect-great-expectations/" alt="Downloads">
+        <img src="https://img.shields.io/pypi/dm/prefect-great-expectations?color=0052FF&labelColor=090422" /></a>
+    <a href="https://github.com/PrefectHQ/prefect-great-expectations/pulse" alt="Activity">
+        <img src="https://img.shields.io/github/commit-activity/m/PrefectHQ/prefect-great-expectations?color=0052FF&labelColor=090422" /></a>
+    <br>
+    <a href="https://prefect-great-expectations-community.slack.com" alt="Slack">
+        <img src="https://img.shields.io/badge/slack-join_community-red.svg?color=0052FF&labelColor=090422&logo=slack" /></a>
+    <a href="https://discourse.prefect-great-expectations.io/" alt="Discourse">
+        <img src="https://img.shields.io/badge/discourse-browse_forum-red.svg?color=0052FF&labelColor=090422&logo=discourse" /></a>
+</p>
+
 ## Welcome!
 
 Prefect Collection containing integrations for interacting with Great Expectations
@@ -21,6 +37,14 @@ Install `prefect-great-expectations` with `pip`:
 ```bash
 pip install prefect-great-expectations
 ```
+
+Then, register to [view the block](https://orion-docs.prefect.io/ui/blocks/) on Prefect Cloud:
+
+```bash
+prefect block register -m prefect_great_expectations.credentials
+```
+
+Note, to use the `load` method on Blocks, you must already have a block document [saved through code](https://orion-docs.prefect.io/concepts/blocks/#saving-blocks) or [saved through the UI](https://orion-docs.prefect.io/ui/blocks/).
 
 ### Write and run a flow
 
