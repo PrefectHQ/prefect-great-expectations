@@ -1,5 +1,0 @@
-diff a/requirements.txt b/requirements.txt	(rejected hunks)
-@@ -1 +1 @@
--prefect>=2.0a13
-\ No newline at end of file
-+prefect>=2.0.0
