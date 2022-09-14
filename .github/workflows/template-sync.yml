@@ -38,7 +38,7 @@ jobs:
           python-version: 3.9
 
       - name: Install cruft
-        run: pip install cruft
+        run: pip install "cookiecutter>=1.7.3,<2.0.0" cruft
 
       - name: Perform updates
         run: cruft update -y
