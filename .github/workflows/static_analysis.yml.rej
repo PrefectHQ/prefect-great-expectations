@@ -1,0 +1,10 @@
+diff a/.github/workflows/static_analysis.yml b/.github/workflows/static_analysis.yml	(rejected hunks)
+@@ -13,7 +13,7 @@ jobs:
+           persist-credentials: false
+ 
+       - name: Set up Python
+-        uses: actions/setup-python@v3
++        uses: actions/setup-python@v4
+         with:
+           python-version: 3.9
+ 
