@@ -66,6 +66,8 @@ If you encounter any bugs while using `prefect-great-expectations`, feel free to
 
 If you have any questions or issues while using `prefect-great-expectations`, you can find help in either the [Prefect Discourse forum](https://discourse.prefect.io/) or the [Prefect Slack community](https://prefect.io/slack).
 
+Feel free to ⭐️ or watch [`prefect-great-expectations`](https://github.com/PrefectHQ/prefect-great-expectations) for updates too!
+
 ## Development
 
 If you'd like to install a version of `prefect-great-expectations` for development, clone the repository and perform an editable install with `pip`:
