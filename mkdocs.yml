@@ -1,7 +1,7 @@
 site_name: prefect-great-expectations
 site_url: https://prefecthq.github.io/prefect-great-expectations
 repo_url: https://github.com/prefecthq/prefect-great-expectations
-edit_uri: /edit/main/docs/
+edit_uri: edit/main/docs/
 theme:
   name: material
   favicon: img/favicon.ico
