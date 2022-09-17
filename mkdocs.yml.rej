@@ -1,0 +1,10 @@
+diff a/mkdocs.yml b/mkdocs.yml	(rejected hunks)
+@@ -1,7 +1,7 @@
+ site_name: prefect-great-expectations
+ site_url: https://PrefectHQ.github.io/prefect-great-expectations
+ repo_url: https://github.com/PrefectHQ/prefect-great-expectations
+-edit_uri: /edit/main/docs/
++edit_uri: edit/main/docs/
+ theme:
+   name: material
+   favicon: img/favicon.ico
