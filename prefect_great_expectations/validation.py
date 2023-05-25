@@ -130,13 +130,15 @@ def run_checkpoint_validation(
 
     if not result.success:
         logger.warning(
-            "Great Expectations validation run %s failed", result.run_id.run_name if result.run_id.run_name else ""
+            "Great Expectations validation run %s failed",
+            result.run_id.run_name if result.run_id.run_name else "",
         )
         if raise_on_validation_failure:
             raise GreatExpectationValidationError(result)
     else:
         logger.info(
-            "Great Expectations validation run %s succeeded", result.run_id.run_name if result.run_id.run_name else ""
+            "Great Expectations validation run %s succeeded",
+            result.run_id.run_name if result.run_id.run_name else "",
         )
 
     return result
