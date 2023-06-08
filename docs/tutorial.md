@@ -2,9 +2,9 @@
 tags: - Great Expectations
 ---
 
-# How to use Great Expectations with Prefect 
+# How to Use Great Expectations with Prefect 
 
-This guide will help you use Great Expectations with [Prefect](https://prefect.io/).
+This guide will help you use [Great Expectations](https://greatexpectations.io/) with [Prefect](https://prefect.io/).
 
 [Prefect](https://prefect.io/) is a workflow orchestration and observation platform that enables data engineers, ML engineers, and data scientists to stop wondering about their workflows. [The Prefect open source library](https://docs.prefect.io) allows users to create workflows using Python and add retries, logging, caching, scheduling, failure notifications, and much more. [Prefect Cloud](https://www.prefect.io/cloud/) offers all that goodness plus a hosted platform, automations, and enterprise features for users who need them. Prefect Cloud provides free and paid tiers.
 
@@ -14,10 +14,9 @@ Prefect can be used with Great Expectations validations so that you can be confi
 
 ### Install 
 
-Install the Great Expectations, Prefect, and [prefect-great-expectations](https://prefecthq.github.io/prefect-great-expectations/) libraries into the same Python virtual environment. 
+Install the [Great Expectations](https://greatexpectations.io/), [Prefect](https://docs.prefect.io/), and [prefect-great-expectations](https://prefecthq.github.io/prefect-great-expectations/) libraries into the same Python virtual environment. 
 
 ```bash
-pip install great_expectations prefect prefect_great_expectations
 pip install great_expectations prefect prefect_great_expectations
 ```
 
@@ -189,11 +188,11 @@ def validation_flow(checkpoint):
 
 The UI gives you lots of visibilty into the state of your flow runs. 
 
-![Screenshot of flow run with logs in Prefect UI](../../docs/images/flow_run.png)
+![Screenshot of flow run with logs in Prefect UI](img/flow_run.png)
 
 Your artifact displays validation results for human consumption.
 
-![Screenshot of artifact in Prefect UI](../../docs/images/artifact.png)
+![Screenshot of artifact in Prefect UI](img/artifact.png)
 
 Alternatively, you could share a link to your [Great Expectations Data Docs](https://docs.greatexpectations.io/docs/guides/setup/configuring_data_docs/how_to_host_and_share_data_docs_on_amazon_s3) in an artifact. 
 
