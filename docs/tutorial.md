@@ -1,16 +1,10 @@
 ---
-title: How to Use Great Expectations with Prefect
+tags: - Great Expectations
 ---
 
-This guide will help you run Great Expectations with [Prefect](https://prefect.io/)
+# How to use Great Expectations with Prefect 
 
-## Prerequisites
-
-<Prerequisites>
-
-- None
-
-</Prerequisites>
+This guide will help you use Great Expectations with [Prefect](https://prefect.io/).
 
 [Prefect](https://prefect.io/) is a workflow orchestration and observation platform that enables data engineers, ML engineers, and data scientists to stop wondering about their workflows. [The Prefect open source library](https://docs.prefect.io) allows users to create workflows using Python and add retries, logging, caching, scheduling, failure notifications, and much more. [Prefect Cloud](https://www.prefect.io/cloud/) offers all that goodness plus a hosted platform, automations, and enterprise features for users who need them. Prefect Cloud provides free and paid tiers.
 
