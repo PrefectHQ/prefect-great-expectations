@@ -18,7 +18,7 @@
 
 ## Welcome!
 
-Prefect Collection containing integrations for interacting with Great Expectations
+Prefect integration for interacting with Great Expectations
 
 ## Getting Started
 
@@ -26,9 +26,9 @@ Prefect Collection containing integrations for interacting with Great Expectatio
 
 Requires an installation of Python 3.7+.
 
-We recommend using a Python virtual environment manager such as pipenv, conda or virtualenv.
+We recommend using a Python virtual environment manager such as pipenv, conda, or virtualenv.
 
-These tasks are designed to work with Prefect 2.0. For more information about how to use Prefect, please refer to the [Prefect documentation](https://orion-docs.prefect.io/).
+These tasks are designed to work with Prefect 2. For more information about how to use Prefect, please refer to the [Prefect documentation](https://docs.prefect.io/).
 
 ### Installation
 
@@ -44,13 +44,15 @@ pip install prefect-great-expectations
 from prefect import flow
 from prefect_great_expectations import run_checkpoint_validation
 
-
 @flow
 def example_flow():
    run_checkpoint_validation(checkpoint_name="my_checkpoint")
 
 example_flow()
 ```
+
+## Tutorial
+
 
 ## Resources
 
