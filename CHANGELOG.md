@@ -7,7 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+
 ### Added
+- Adds tutorial and other docs improvements. - [#39](https://github.com/PrefectHQ/prefect-great-expectations/pull/39)
 
 ### Changed
 - Updated tests to be compatible with core Prefect library (v2.0b9) and bumped required version - [#14](https://github.com/PrefectHQ/prefect-great-expectations/pull/14)
