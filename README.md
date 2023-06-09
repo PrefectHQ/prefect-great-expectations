@@ -18,7 +18,9 @@
 
 ## Welcome!
 
-Prefect integration for interacting with Great Expectations
+Prefect integration for interacting with Great Expectations.
+
+[Great Expectations](https://greatexpectations.io/gx-oss) is a Python library for data quality. It provides a framework to validate your state of data.
 
 ## Getting Started
 
