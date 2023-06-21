@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 
 ### Fixed
+- Update logging to use `warning` instead of `warn` to avoid deprecation warning and remove None in logs if no run name is present - [#37]([https://github.com/PrefectHQ/prefect-great-expectations/pull/14](https://github.com/PrefectHQ/prefect-great-expectations/pull/37))
 
 ### Security
 
