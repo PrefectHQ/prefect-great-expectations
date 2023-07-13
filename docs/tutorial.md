@@ -1,7 +1,3 @@
----
-tags: - Great Expectations
----
-
 # How to Use Great Expectations with Prefect 
 
 This guide will help you use [Great Expectations](https://greatexpectations.io/) with [Prefect](https://prefect.io/).
