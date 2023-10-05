@@ -2,12 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://prefecthq.github.io/prefect-great-expectations/</loc>
-         <lastmod>2023-02-07</lastmod>
+         <lastmod>2023-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://prefecthq.github.io/prefect-great-expectations/tutorial/</loc>
+         <lastmod>2023-10-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://prefecthq.github.io/prefect-great-expectations/validation/</loc>
-         <lastmod>2023-02-07</lastmod>
+         <lastmod>2023-10-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
