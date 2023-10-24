@@ -49,7 +49,7 @@ def run_checkpoint_validation(
         checkpoint: A Checkpoint object to use for validation. Overrides
             `checkpoint_name` if both are provided.
         checkpoint_kwargs: A dictionary with values used to provide configuration to
-            the task's Checkpint at runtime. Keys should match the parameters of
+            the task's Checkpoint at runtime. Keys should match the parameters of
             `CheckpointConfig`.
         data_context_root_dir: Path to the great_expectations directory.
         data_context: A DataContext object to use during validation. Overrides
